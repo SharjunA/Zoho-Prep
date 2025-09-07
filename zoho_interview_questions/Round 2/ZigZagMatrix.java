@@ -1,4 +1,3 @@
-// 5.
 public class ZigZagMatrix {
     public static void printZigZag(int[][] matrix) {
         int n = matrix.length;        // Rows
