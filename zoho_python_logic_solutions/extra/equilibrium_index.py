@@ -2,7 +2,7 @@ def find_equilibrium_index(arr):
     total_sum = sum(arr)
     left_sum = 0
 
-    for i, num in enumerate(arr):
+    for i, num in enumerate(arr): # i -> index, num -> value
         total_sum -= num  # Now total_sum is right sum
         if left_sum == total_sum:
             return i

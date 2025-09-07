@@ -1,4 +1,3 @@
-import java.util.*;
 public class SecondLargestElement {
     public static void main(String[] args) {
         int[] arr = {10, 20, 5, 8, 70, 30};
