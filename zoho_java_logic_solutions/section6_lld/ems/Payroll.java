@@ -1,4 +1,3 @@
-
 public class Payroll {
     public static double netSalary(Employee e) {
         double hra = e.basePay * 0.20;

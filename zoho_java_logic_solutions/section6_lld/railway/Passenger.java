@@ -1,5 +1,9 @@
-
 public class Passenger {
     public final String name;
-    public Passenger(String name) { this.name = name; }
+    public final int age;
+
+    public Passenger(String name, int age) { 
+        this.name = name; 
+        this.age = age;
+    }
 }
